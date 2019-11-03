@@ -3,9 +3,8 @@ def positive_negative():
     no=input()
     if (int(no)>0):
         print("Positive Number")
-    elif (no) == 0:
+    elif (int(no) == 0):
         print("Zero")
-
     else:
         print("Negative Number")
 positive_negative();
